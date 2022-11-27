@@ -1,0 +1,28 @@
+* {
+    /* but never ever use the wildcard selector */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Raleway", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+:root {
+    --black: #171321;
+    --link-kblue: #2a7ae4;
+    --back-tblue: #eaf2fd;
+    --back-grey: #f5f5f5;
+    --title-grey: #464646;
+    --txt-grey: #a2a2a2;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,31 @@
+.banner {
+    margin: 0rem auto;
+}
+
+.banner__info {
+    width: 100vw;
+    height: 30vh;
+}
+
+.banner__info {
+    /* FIXME */
+    color: var(--white);
+    background: url(../images/banner/banner.png) no-repeat center/cover;
+    max-width: 100%;
+    text-align: left;
+    padding-top: 6%;
+    padding-left: 16%;
+}
+
+.banner h2 {
+    font-size: 2.6rem;
+}
+
+.banner h3 {
+    font-size: 1.3rem;
+    margin-top: 8px;
+}
+
+.banner button {
+    margin-top: 14px;
+}

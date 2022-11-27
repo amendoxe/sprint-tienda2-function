@@ -1,0 +1,44 @@
+main {
+    background-color: var(--back-grey);
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.form-agrega {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 50vw;
+}
+
+.btn-agrega {
+    width: 50vw;
+}
+
+@media screen and (max-width:800px) {
+
+    .form-agrega {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .form-message {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 80vw;
+    }
+
+    .btn-agrega {
+        width: 80vw;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/icons/logo-controller.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/banner.css" />
+    <link rel="stylesheet" href="../assets/css/section.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/login__style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="header__logo">
+            <img src="../assets/images/icons/logo.svg" alt="AluraGeek logo" class="header__logo" />
+        </a>
+        <div class="header__right">
+            <form action="#">
+                <input type="text" class="buscar-input" placeholder="¿Qué deseas buscar?" />
+
+                <button class="buscar-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <form class="form-agrega form-message">
+            <h3 class="form-title">Agregar nuevo producto</h3>
+
+            <label for="url-imagen">URL de imagen</label>
+            <input type="text" name="url-imagen" id="" class="in-text" />
+            <label for="categoria">Categorías</label>
+            <input type="text" name="categoria" id="" class="in-text" />
+            <label for="nombre-producto">Nombre del producto</label>
+            <input type="text" name="nombre-producto" id="" class="in-text" />
+            <label for="precio-producto">Precio del producto</label>
+            <input type="text" name="precio-producto" id="" class="in-text" />
+            <label for="descripcion">Descripción del producto</label>
+            <textarea name="descripcion" cols="30" rows="5" class="in-text"></textarea>
+            <a href="./productos.html">
+
+                <input type="button" value="Agregar producto" class="btn-style btn-agrega" />
+            </a>
+        </form>
+    </main>
+    <section class="pre-footer">
+        <img src="../assets/images/icons/logo.svg" alt="" class="logo-foot" />
+
+        <div class="pre-footer__link-area">
+            <a href="#">
+                <p class="link-foot-text footer__link">Quienes somos</p>
+            </a><a href="#">
+                <p class="link-foot-text footer__link">Politica de Privacidad</p>
+            </a><a href="#">
+                <p class="link-foot-text footer__link">Programa de fidelidad</p>
+            </a><a href="#">
+                <p class="link-foot-text footer__link">Nuestras Tiendas</p>
+            </a><a href="#">
+                <p class="link-foot-text footer__link">Quiero ser franquiciado</p>
+            </a><a href="#">
+                <p class="link-foot-text footer__link">Anuncie aquí</p>
+            </a>
+        </div>
+        <form class="form-message">
+            <h3 class="form-title">Hable con nosotros</h3>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="" class="in-text" />
+            <label for="mensaje">Escribe tu mensaje</label>
+            <textarea name="mensaje" cols="30" rows="5" class="in-text"></textarea>
+            <input type="button" value="Enviar mensaje" class="btn-style" />
+        </form>
+    </section>
+    <footer>
+        <p class="footer__text">Desarrollado por Arturo Mendoza</p>
+        <br />
+        <p class="footer__text">2022</p>
+    </footer>
+</body>
+
+</html>
