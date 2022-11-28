@@ -24,6 +24,23 @@ main {
     width: 50vw;
 }
 
+.login-error {
+    border: solid 8px;
+    border-color: var(--back-grey);
+}
+
+.login-error-mail {
+    color: orange;
+    text-align: center;
+    display: none;
+}
+
+.login-error-password {
+    color: orange;
+    text-align: center;
+    display: none;
+}
+
 @media screen and (max-width:800px) {
 
     .form-agrega {

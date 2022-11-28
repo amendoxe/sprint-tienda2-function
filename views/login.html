@@ -34,25 +34,30 @@
     </header>
 
     <main>
-        <form class="form-agrega form-message">
+        <div class="login-error" data-login-error>
+            <p class="login-error-mail" data-login-error-mail>Correro incorrecto</p>
+            <p class="login-error-password" data-login-error-password>Pasword incorrecto</p>
+            <form class="form-agrega form-message" data-login>
 
-            <h3 class="form-title">Iniciar Sesión</h3>
+                <h3 class="form-title">Iniciar Sesión</h3>
 
-            <label for="url-imagen">Escriba su correo electrónico</label>
-            <input type="email" name="url-imagen" id="email" class="in-text" required
-                oninvalid="this.setCustomValidity(`Escribe tu correo electrónico`)" oninput="setCustomValidity(``)" />
-            <label for="categoria">Escriba su contraseña</label>
+                <label for="url-imagen">Escriba su correo electrónico</label>
+                <input type="email" name="url-imagen" id="email" class="in-text" required
+                    oninvalid="this.setCustomValidity(`Escribe tu correo electrónico`)" oninput="setCustomValidity(``)"
+                    data-email />
+                <label for="categoria">Escriba su contraseña</label>
 
-            <input name="password" id="password" class="in-text" type="password" placeholder="contraseña" required
-                minlength="6" maxlength="12" />
-            <!-- <input name="password" id="password" class="in-text" type="password" placeholder="contraseña"
-            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
-            title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número  y no pude contener caracteres especiales."
-            required minlength="6" maxlength="12" /> -->
+                <input name="password" id="password" class="in-text" type="password" placeholder="contraseña" required
+                    minlength="6" maxlength="12" data-password />
+                <!-- <input name="password" id="password" class="in-text" type="password" placeholder="contraseña"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                    title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número  y no pude contener caracteres especiales."
+                    required minlength="6" maxlength="12" /> -->
 
-            <button class="btn-style btn-agrega">Entrar</a>
+                <button class="btn-style btn-agrega">Entrar</a>
 
 
+        </div>
         </form>
     </main>
     <section class="pre-footer">
@@ -83,7 +88,9 @@
             <textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" data-mensaje-usuario required
                 oninvalid="this.setCustomValidity(`Escribe tu mensaje`)" oninput="setCustomValidity(``)"></textarea>
             <div class="error" data-error></div>
-            <input type="submit" value="Enviar mensaje" class="btn-style" />
+            <!-- <input type="submit" value="Enviar mensaje" class="btn-style" /> -->
+            <button class="btn-style ">Enviar mensaje</a>
+
         </form>
     </section>
     <footer>
@@ -91,6 +98,7 @@
         <br />
         <p class="footer__text">2022</p>
     </footer>
+    <script src="../js/validaciones.js"></script>
 </body>
 
 </html>
