@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="./assets/css/banner.css" />
 	<link rel="stylesheet" href="./assets/css/section.css" />
 	<link rel="stylesheet" href="./assets/css/footer.css" />
+	<link rel="stylesheet" href="./assets/css/form-message-error.css">
 </head>
 
 <body>
@@ -257,10 +258,13 @@
 			<h3 class="form-title">Hable con nosotros</h3>
 
 			<label for="nombre">Nombre</label>
-			<input type="text" name="nombre" id="" class="in-text" maxlength="40" required />
+			<input type="text" name="nombre" id="" class="in-text" maxlength="40" data-nombre-usuario required
+				oninvalid="this.setCustomValidity(`Escribe tu nombre`)" oninput="setCustomValidity(``)" />
 			<label for="mensaje">Escribe tu mensaje</label>
-			<textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" required></textarea>
-			<input type="button" value="Enviar mensaje" class="btn-style" />
+			<textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" data-mensaje-usuario required
+				oninvalid="this.setCustomValidity(`Escribe tu mensaje`)" oninput="setCustomValidity(``)"></textarea>
+			<div class="error" data-error></div>
+			<input type="submit" value="Enviar mensaje" class="btn-style" />
 		</form>
 	</section>
 	<footer>

@@ -38,9 +38,11 @@
             <h3 class="form-title">Iniciar Sesión</h3>
 
             <label for="url-imagen">Escriba su correo electrónico</label>
-            <input type="text" name="url-imagen" id="" class="in-text" />
+            <input type="email" name="url-imagen" id="" class="in-text" required />
             <label for="categoria">Escriba su contraseña</label>
-            <input type="text" name="categoria" id="" class="in-text" />
+            <input type="password" name="categoria" id="" class="in-text" minlength="6" required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-].{6,12}$"
+                title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número  y no pude contener caracteres especiales." />
 
             <a href="./productos.html">
 
@@ -66,14 +68,17 @@
                 <p class="link-foot-text footer__link">Anuncie aquí</p>
             </a>
         </div>
-        <form class="form-message">
+        <form class="form-message" data-formulario-mensaje>
             <h3 class="form-title">Hable con nosotros</h3>
 
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="" class="in-text" />
+            <input type="text" name="nombre" id="" class="in-text" maxlength="40" data-nombre-usuario required
+                oninvalid="this.setCustomValidity(`Escribe tu nombre`)" oninput="setCustomValidity(``)" />
             <label for="mensaje">Escribe tu mensaje</label>
-            <textarea name="mensaje" cols="30" rows="5" class="in-text"></textarea>
-            <input type="button" value="Enviar mensaje" class="btn-style" />
+            <textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" data-mensaje-usuario required
+                oninvalid="this.setCustomValidity(`Escribe tu mensaje`)" oninput="setCustomValidity(``)"></textarea>
+            <div class="error" data-error></div>
+            <input type="submit" value="Enviar mensaje" class="btn-style" />
         </form>
     </section>
     <footer>
