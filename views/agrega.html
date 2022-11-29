@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./assets/images/icons/logo-controller.svg" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/d27bc8f318.js" crossorigin="anonymous"></script>
     <title>AluraGeek</title>
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../assets/css/header.css" />
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="../assets/css/section.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/login__style.css" />
+
 </head>
 
 <body>
@@ -36,9 +38,20 @@
     <main>
         <form class="form-agrega form-message">
             <h3 class="form-title">Agregar nuevo producto</h3>
+            <div class="sube-img">
+
+                <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+                    <p class="fa-regular fa-image fa-2x"></p>
+                    <p>Arrastre para agregar una imagen para el producto</p>
+                </div>
+                <p>Ó</p>
+                <button class="btn-buscar btn-style">Busque en su computador</button>
+            </div>
 
             <label for="url-imagen">URL de imagen</label>
-            <input type="text" name="url-imagen" id="" class="in-text" />
+            <input type="file" name="url-imagen" id="" class="in-text" />
+
+
             <label for="categoria">Categorías</label>
             <input type="text" name="categoria" id="" class="in-text" />
             <label for="nombre-producto">Nombre del producto</label>

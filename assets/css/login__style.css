@@ -35,6 +35,37 @@ main {
     display: none;
 }
 
+/* Agregando productos */
+.sube-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sube-img p {
+    color: var(--title-grey);
+}
+
+#drop_zone {
+    border: 3px dotted var(--txt-grey);
+    width: 22vw;
+    height: 10vw;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+
+}
+
+#drop_zone p {
+    color: var(--txt-grey);
+}
+
+.btn-buscar {
+    width: 22vw;
+    color: var(--link-kblue);
+    background-color: var(--back-grey);
+    border: 2px solid var(--link-kblue);
+}
 
 @media screen and (max-width:800px) {
 
