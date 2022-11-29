@@ -16,7 +16,6 @@ function validaLogin(e) {
 		console.log("mail is correct");
 		checkMail = true;
 	} else {
-		e.preventDefault();
 		email.value = "";
 		password.value = "";
 		console.log("something is mail wrang!!");
