@@ -47,7 +47,7 @@ main {
 }
 
 #drop_zone {
-    border: 3px dotted var(--txt-grey);
+    border: 3px dashed var(--txt-grey);
     width: 22vw;
     height: 10vw;
     padding: 1rem;
