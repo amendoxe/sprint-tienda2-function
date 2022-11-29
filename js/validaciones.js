@@ -1,7 +1,6 @@
 const loginForm = document.querySelector("[data-login]");
 const errorMark = document.querySelector("[data-login-error]");
-const errorMail = document.querySelector("[data-login-error-inputs]");
-const errorPassword = document.querySelector("[data-login-error-password]");
+const errorMessage = document.querySelector("[data-login-error-inputs]");
 const email = document.querySelector("[data-email]");
 const password = document.querySelector("[data-password]");
 
@@ -17,25 +16,29 @@ function validaLogin(e) {
 		console.log("mail is correct");
 		checkMail = true;
 	} else {
+		e.preventDefault();
 		email.value = "";
 		password.value = "";
 		console.log("something is mail wrang!!");
-		errorMail.style.display = "block";
+		errorMessage.style.display = "block";
 		errorMark.style.borderColor = "orange";
 	}
 	if (password.value == "another") {
-		console.log("mail is correct");
+		console.log("password is correct");
 		checkPassword = true;
 	} else {
 		email.value = "";
 		password.value = "";
 		console.log("something is password wrang!!");
-		errorPassword.style.display = "block";
+		errorMessage.style.display = "block";
 		errorMark.style.borderColor = "orange";
 	}
 	if (checkPassword && checkMail) {
-		//TODO redirecciona a todos los productos
+		console.log("Redireccionando Padrino!");
+		e.preventDefault();
+		errorMessage.style.display = "none";
+		errorMark.style.borderColor = "#f5f5f5";
+		window.location.href = "/views/productos.html";
 	}
-
 	e.preventDefault();
 }
