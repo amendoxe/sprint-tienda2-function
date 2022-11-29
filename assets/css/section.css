@@ -1,8 +1,13 @@
+.section {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 .section__title {
 	display: flex;
 	justify-content: space-between;
-	/* align-items: center; */
-	/* margin: 1rem auto; */
+	align-items: center;
+	margin: .4rem auto;
 	padding: 0 14rem;
 }
 
