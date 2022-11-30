@@ -60,12 +60,45 @@ main {
     color: var(--txt-grey);
 }
 
-.btn-buscar {
+.btn-buscar-file {
     width: 22vw;
     color: var(--link-kblue);
     background-color: var(--back-grey);
-    border: 2px solid var(--link-kblue);
+    border: 5px solid var(--link-kblue);
+    border-radius: 8px;
 }
+
+.btn-buscar-file::-webkit-file-upload-button {
+    margin-right: 2rem;
+    min-width: 130px;
+    height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 22vw;
+    color: var(--link-kblue);
+    background-color: var(--back-grey);
+    border: none;
+}
+
+.btn-buscar-file::file-selector-button {
+    margin-right: 2rem;
+    min-width: 130px;
+    height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 22vw;
+    color: var(--link-kblue);
+    background-color: var(--back-grey);
+    border: none;
+}
+
+
+/* input[type="file"] {
+    opacity: .2;
+    width: 100%;
+} */
 
 @media screen and (max-width:800px) {
 
