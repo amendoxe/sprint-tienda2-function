@@ -47,22 +47,26 @@
                 <p>Ó</p>
                 <input type="file" multiple class="btn-buscar-file" />
             </div>
+            <!-- FIXME -->
             <div class="input-container">
 
                 <label for="nombre-producto">Nombre del producto</label>
                 <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20"
                     data-productos-nombre />
+                <span class="input-message-error">Este campo no es valido</span>
             </div>
             <div class="input-container">
 
                 <label for="precio-producto">Precio del producto</label>
                 <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio />
+                <span class="input-message-error">Este campo no es valido</span>
             </div>
             <div class="input-container">
 
                 <label for="descripcion">Descripción del producto</label>
-                <textarea name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150"
-                    data-productos-descripcion></textarea>
+                <input name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150" minlength="15"
+                    required data-productos-descripcion>
+                <span class="input-message-error">Este campo no es valido</span>
             </div>
 
             <button class="btn-style btn-agrega ">Agregar producto</a>

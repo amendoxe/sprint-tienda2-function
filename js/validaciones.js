@@ -1,5 +1,5 @@
 // validaciones "b"
-export function valida(input) {
+export function validas(input) {
 	console.log("función valida", input);
 }
 
