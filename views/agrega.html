@@ -36,7 +36,7 @@
     </header>
 
     <main>
-        <form class="form-agrega form-message">
+        <form class="form-agrega form-message" data-productos-form>
             <h3 class="form-title">Agregar nuevo producto</h3>
             <div class="sube-img">
 
@@ -49,15 +49,16 @@
             </div>
 
             <label for="nombre-producto">Nombre del producto</label>
-            <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20" />
+            <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20"
+                data-productos-nombre />
             <label for="precio-producto">Precio del producto</label>
-            <input type="number" name="precio-producto" id="" class="in-text" required />
+            <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio />
             <label for="descripcion">Descripción del producto</label>
-            <textarea name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150"></textarea>
-            <a href="./productos.html">
+            <textarea name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150"
+                data-productos-descripcion></textarea>
 
-                <input type="button" value="Agregar producto" class="btn-style btn-agrega" />
-            </a>
+            <button class="btn-style btn-agrega ">Agregar producto</a>
+
         </form>
     </main>
     <section class="pre-footer">
@@ -97,6 +98,7 @@
         <p class="footer__text">2022</p>
     </footer>
     <script src="../controllers/agrega-producto.controller.js"></script>
+    <script src="../js/productos-validaciones.js"></script>
 </body>
 
 </html>
