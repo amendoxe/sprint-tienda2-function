@@ -25,9 +25,14 @@
             <img src="../assets/images/icons/logo.svg" alt="AluraGeek logo" class="header__logo" />
         </a>
         <div class="header__right">
-            <form action="#">
-                <input type="text" class="buscar-input" placeholder="¿Qué deseas buscar?" />
+            <form>
+                <!-- FIXME -->
+                <div class="input-container">
 
+                    <input type="text" class="buscar-input" placeholder="¿Qué deseas buscar?" data-tipo="busqueda"
+                        required minlength="3" />
+                    <span class="input-message-error">Este campo</span>
+                </div>
                 <button class="buscar-btn">
                     <i class="fas fa-search"></i>
                 </button>
@@ -52,20 +57,21 @@
 
                 <label for="nombre-producto">Nombre del producto</label>
                 <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20"
-                    data-productos-nombre />
+                    data-productos-nombre data-tipo="nombrep" />
                 <span class="input-message-error">Este campo no es valido</span>
             </div>
             <div class="input-container">
 
                 <label for="precio-producto">Precio del producto</label>
-                <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio />
+                <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio
+                    data-tipo="precio" />
                 <span class="input-message-error">Este campo no es valido</span>
             </div>
             <div class="input-container">
 
                 <label for="descripcion">Descripción del producto</label>
-                <input name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150" minlength="15"
-                    required data-productos-descripcion>
+                <input name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150" required
+                    data-productos-descripcion data-tipo="descripción">
                 <span class="input-message-error">Este campo no es valido</span>
             </div>
 
@@ -101,7 +107,7 @@
             <textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" data-mensaje-usuario required
                 oninvalid="this.setCustomValidity(`Escribe tu mensaje`)" oninput="setCustomValidity(``)"></textarea>
             <div class="error" data-error></div>
-            <button class="btn-style ">Enviar mensaje</a>
+            <button class="btn-style ">Enviar mensaje</button>
         </form>
     </section>
     <footer>
