@@ -47,15 +47,23 @@
                 <p>Ó</p>
                 <input type="file" multiple class="btn-buscar-file" />
             </div>
+            <div class="input-container">
 
-            <label for="nombre-producto">Nombre del producto</label>
-            <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20"
-                data-productos-nombre />
-            <label for="precio-producto">Precio del producto</label>
-            <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio />
-            <label for="descripcion">Descripción del producto</label>
-            <textarea name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150"
-                data-productos-descripcion></textarea>
+                <label for="nombre-producto">Nombre del producto</label>
+                <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20"
+                    data-productos-nombre />
+            </div>
+            <div class="input-container">
+
+                <label for="precio-producto">Precio del producto</label>
+                <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio />
+            </div>
+            <div class="input-container">
+
+                <label for="descripcion">Descripción del producto</label>
+                <textarea name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150"
+                    data-productos-descripcion></textarea>
+            </div>
 
             <button class="btn-style btn-agrega ">Agregar producto</a>
 
@@ -98,7 +106,8 @@
         <p class="footer__text">2022</p>
     </footer>
     <script src="../controllers/agrega-producto.controller.js"></script>
-    <script src="../js/productos-validaciones.js"></script>
+    <script src="../js/productos-validaciones.js" type="module"></script>
+    <script src="../js/app.js" type="module"></script>
 </body>
 
 </html>

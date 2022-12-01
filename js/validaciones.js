@@ -1,9 +1,15 @@
+// validaciones "b"
+export function valida(input) {
+	console.log("función valida", input);
+}
+
 const loginForm = document.querySelector("[data-login]");
 const errorMark = document.querySelector("[data-login-error]");
 const errorMessage = document.querySelector("[data-login-error-inputs]");
 const email = document.querySelector("[data-email]");
 const password = document.querySelector("[data-password]");
 
+// esto funcionaba antes
 loginForm.addEventListener("submit", (e) => {
 	validaLogin(e);
 });

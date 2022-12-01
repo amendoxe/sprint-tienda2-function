@@ -6,6 +6,26 @@ main {
     padding-bottom: 6rem;
 }
 
+.input-container {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+    color: var(--warning-color);
+}
+
 .form-agrega {
     display: flex;
     flex-direction: column;
