@@ -1,0 +1,25 @@
+{
+"producto":[
+    {
+        "categoria":"Star Wars", "nombre": "taza Stormtrooper", "precio": 150, "imagen": "./assets/images/star-wars/1.png"
+    },
+        {
+        "categoria":"Star Wars", "nombre": "Lego Helmet", "precio": 250, "imagen": "./assets/images/star-wars/2.png"
+    },
+        {
+        "categoria":"Star Wars", "nombre": "Figura de Yoda", "precio": 100, "imagen": "./assets/images/star-wars/3.png"
+    },
+        {
+        "categoria":"Star Wars", "nombre": "figura Primera Orden", "precio": 350, "imagen": "./assets/images/star-wars/4.png"
+    },
+        {
+        "categoria":"Star Wars", "nombre": "figura Grogu", "precio": 150, "imagen": "./assets/images/star-wars/5.png"
+    },
+        {
+        "categoria":"Star Wars", "nombre": "figura Kylo Ren", "precio": 250, "imagen": "./assets/images/star-wars/6.png"
+    },
+        {
+        "categoria":"Consolas", "nombre": "control Xbox one", "precio": 950, "imagen": "./assets/images/consolas/1.png"
+    }
+]
+}
