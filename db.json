@@ -20,6 +20,9 @@
     },
         {
         "categoria":"Consolas", "nombre": "control Xbox one", "precio": 950, "imagen": "./assets/images/consolas/1.png"
+    },
+        {
+        "categoria":"Consolas", "nombre": "playstation 5", "precio": 11000, "imagen": "./assets/images/consolas/1.png"
     }
 ]
 }
