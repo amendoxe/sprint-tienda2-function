@@ -51,7 +51,7 @@
                 <input name="password" id="password" class="in-text" type="password" placeholder="contraseña"
                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
                     title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número  y no pude contener caracteres especiales."
-                    required minlength="6" maxlength="12" />
+                    required minlength="6" maxlength="12" data-password />
 
                 <button class="btn-style btn-agrega">Entrar</a>
 
@@ -82,7 +82,8 @@
 
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="" class="in-text" maxlength="40" data-nombre-usuario required
-                oninvalid="this.setCustomValidity(`Escribe tu nombre`)" oninput="setCustomValidity(``)" />
+                style="background-color:black ;" oninvalid="this.setCustomValidity(`Escribe tu nombre`)"
+                oninput="setCustomValidity(``)" />
             <label for="mensaje">Escribe tu mensaje</label>
             <textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" data-mensaje-usuario required
                 oninvalid="this.setCustomValidity(`Escribe tu mensaje`)" oninput="setCustomValidity(``)"></textarea>

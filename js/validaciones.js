@@ -28,7 +28,7 @@ function validaLogin(e) {
 		errorMessage.style.display = "block";
 		errorMark.style.borderColor = "orange";
 	}
-	if (password.value == "another") {
+	if (password.value == "anotherO2") {
 		console.log("password is correct");
 		checkPassword = true;
 	} else {
@@ -43,7 +43,7 @@ function validaLogin(e) {
 		e.preventDefault();
 		errorMessage.style.display = "none";
 		errorMark.style.borderColor = "#f5f5f5";
-		window.location.href = "/views/productos.html";
+		window.location.href = "/views/productos-add.html";
 	}
 	e.preventDefault();
 }
