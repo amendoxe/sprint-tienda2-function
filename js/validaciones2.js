@@ -10,7 +10,6 @@ export function valida(input) {
 		input.parentElement.classList.add("input-container--invalid");
 		console.log("no es válido", input.validity);
 		input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
-		// input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
 	}
 }
 const mensajesDeError = {
