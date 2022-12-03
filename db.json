@@ -22,7 +22,46 @@
         "categoria":"Consolas", "nombre": "control Xbox one", "precio": 950, "imagen": "./assets/images/consolas/1.png"
     },
         {
-        "categoria":"Consolas", "nombre": "playstation 5", "precio": 11000, "imagen": "./assets/images/consolas/2.png"
+        "categoria":"Consolas", "nombre": "PlayStation 5", "precio": 11000, "imagen": "./assets/images/consolas/2.png"
+    },
+        {
+        "categoria":"Consolas", "nombre": "Nintendo NES", "precio": 6000, "imagen": "./assets/images/consolas/3.png"
+    }
+    ,
+        {
+        "categoria":"Consolas", "nombre": "Joycons", "precio": 1200, "imagen": "./assets/images/consolas/4.png"
+    }
+,
+        {
+        "categoria":"Consolas", "nombre": "Xbox oneX", "precio": 11000, "imagen": "./assets/images/consolas/5.png"
+    }
+    ,
+        {
+        "categoria":"Consolas", "nombre": "Gameboy Color", "precio": 5000, "imagen": "./assets/images/consolas/6.png"
+    }
+    ,
+        {
+        "categoria":"Diversos", "nombre": "Atari shirt?", "precio": 190, "imagen": "./assets/images/diversos/1.png"
+    }
+    ,
+        {
+        "categoria":"Diversos", "nombre": "NES shirt", "precio": 190, "imagen": "./assets/images/diversos/2.png"
+    }
+    ,
+        {
+        "categoria":"Diversos", "nombre": "sonic figure", "precio": 20, "imagen": "./assets/images/diversos/3.png"
+    }
+    ,
+        {
+        "categoria":"Diversos", "nombre": "Despertador", "precio": 200, "imagen": "./assets/images/diversos/4.png"
+    }
+    ,
+        {
+        "categoria":"Diversos", "nombre": "PlayStation Move", "precio": 2500, "imagen": "./assets/images/diversos/5.png"
+    }
+    ,
+        {
+        "categoria":"Diversos", "nombre": "Pikachu plush", "precio": 250, "imagen": "./assets/images/diversos/6.png"
     }
 ]
 }
