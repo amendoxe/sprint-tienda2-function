@@ -4,11 +4,9 @@ export function valida(input) {
 
 	if (input.validity.valid) {
 		input.parentElement.classList.remove("input-container--invalid");
-		console.log("es válido", input.validity);
 		input.parentElement.querySelector(".input-message-error").innerHTML = "";
 	} else {
 		input.parentElement.classList.add("input-container--invalid");
-		console.log("no es válido", input.validity);
 		input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
 	}
 }
@@ -48,9 +46,6 @@ function mostrarMensajeDeError(tipoDeInput, input) {
 	let mensaje = "";
 	tipoDeErrores.forEach((error) => {
 		if (input.validity[error]) {
-			console.log("validity", input.validity);
-			console.log("error", error);
-			console.log(mensajesDeError[tipoDeInput][error]);
 			mensaje = mensajesDeError[tipoDeInput][error];
 		}
 	});

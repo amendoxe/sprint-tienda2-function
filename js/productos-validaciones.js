@@ -14,7 +14,7 @@ function validaProducto(ev) {
 		//redireccionar
 		window.location.href = "/views/productos.html";
 	} else {
-		conso("no estan completos");
+		console.log("no estan completos");
 	}
 	ev.preventDefault();
 }

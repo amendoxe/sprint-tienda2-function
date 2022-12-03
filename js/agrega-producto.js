@@ -1,3 +1,4 @@
+//FIXME para agregar imagen
 function dropHandler(ev) {
 	console.log("File(s) dropped");
 
