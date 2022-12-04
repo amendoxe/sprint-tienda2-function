@@ -10,6 +10,7 @@
     margin: 2rem 2rem;
 }
 
+/* BUG esto no funciona, los producto desaparecen */
 .section__all section__products {
     display: flex;
     flex-wrap: wrap;
