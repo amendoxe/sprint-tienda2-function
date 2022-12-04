@@ -10,6 +10,17 @@
     margin: 2rem 2rem;
 }
 
+.section__all section__products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section__single-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width:500px) {
     .section__title {
         justify-content: space-between;

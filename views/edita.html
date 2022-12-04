@@ -8,14 +8,15 @@
     <link rel="shortcut icon" href="./assets/images/icons/logo-controller.svg" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/d27bc8f318.js" crossorigin="anonymous"></script>
     <title>AluraGeek</title>
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/banner.css" />
     <link rel="stylesheet" href="../assets/css/section.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/productos.css">
-    <link rel="stylesheet" href="../assets/css/button-delete.css">
+    <link rel="stylesheet" href="../assets/css/login__style.css" />
+
 </head>
 
 <body>
@@ -24,30 +25,60 @@
             <img src="../assets/images/icons/logo.svg" alt="AluraGeek logo" class="header__logo" />
         </a>
         <div class="header__right">
-            <form action="#">
-                <input type="text" class="buscar-input" placeholder="¿Qué deseas buscar?" />
+            <form>
+                <!-- FIXME -->
+                <div class="input-container">
 
+                    <input type="text" class="buscar-input" placeholder="¿Qué deseas buscar?" data-tipo="busqueda"
+                        required minlength="3" />
+                    <span class="input-message-error">Este campo</span>
+                </div>
                 <button class="buscar-btn">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
-
         </div>
     </header>
+
     <main>
-        <section class="section">
-            <div class="title-product-style section__title">
-                <h2 class="section-header">Todos los productos</h2>
-                <a href="./agrega.html">
+        <form class="form-agrega form-message" data-productos-form>
+            <h3 class="form-title">Agregar nuevo producto</h3>
+            <div class="sube-img">
 
-                    <span class="section__more">
-                        <button class="agregar-btn btn-style">Agregar producto</button>
-                    </span>
-                </a>
+                <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);"
+                    data-productos-imagen>
+                    <p class="fa-regular fa-image fa-2x"></p>
+                    <p>Arrastre para agregar una imagen para el producto</p>
+                </div>
+                <!-- <p>Ó</p> -->
+                <!-- FIXME -->
+                <!-- <input type="file" class="btn-buscar-file" on="dropHandler(event)" /> -->
             </div>
-            <div class="section__all section__products" data-productos-todos></div>
-        </section>
+            <div class="input-container">
 
+                <label for="nombre-producto">Nombre del producto</label>
+                <input type="text" name="nombre-producto" id="" class="in-text" required maxlength="20"
+                    data-productos-nombre data-tipo="nombrep" />
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+
+                <label for="precio-producto">Precio del producto</label>
+                <input type="number" name="precio-producto" id="" class="in-text" required data-productos-precio
+                    data-tipo="precio" />
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+
+                <label for="descripcion">Descripción del producto</label>
+                <input name="descripcion" cols="30" rows="5" class="in-text" required maxlength="150" required
+                    data-productos-descripcion data-tipo="descripción">
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+
+            <button class="btn-style btn-agrega ">Agregar producto</a>
+
+        </form>
     </main>
     <section class="pre-footer">
         <img src="../assets/images/icons/logo.svg" alt="" class="logo-foot" />
@@ -77,7 +108,7 @@
             <textarea name="mensaje" cols="30" rows="5" class="in-text" maxlength="120" data-mensaje-usuario required
                 oninvalid="this.setCustomValidity(`Escribe tu mensaje`)" oninput="setCustomValidity(``)"></textarea>
             <div class="error" data-error></div>
-            <button class="btn-style ">Enviar mensaje</a>
+            <button class="btn-style ">Enviar mensaje</button>
         </form>
     </section>
     <footer>
@@ -85,8 +116,16 @@
         <br />
         <p class="footer__text">2022</p>
     </footer>
-    <script type="module" src="../controllers/client-controller.js"></script>
-
+    <!-- imagen -->
+    <script src="../js/agrega-producto.js"></script>
+    <!-- redirecciona -->
+    <script src="../js/productos-validaciones.js" type="module"></script>
+    <!-- validaciones personalizadas -->
+    <script src="../js/app.js" type="module"></script>
+    <!-- agregar a API -->
+    <script type="module" src="../controllers/agrega-controller.js"></script>
+    <!-- uuidn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
