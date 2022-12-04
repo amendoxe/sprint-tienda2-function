@@ -36,9 +36,9 @@
       "id": 5
     },
     {
-      "categoria": "Star Wars",
       "nombre": "figura Kylo Ren",
-      "precio": 250,
+      "precio": "249",
+      "descripcion": "undefined",
       "imagen": "./assets/images/star-wars/6.png",
       "id": 6
     },
@@ -113,16 +113,16 @@
       "id": 15
     },
     {
-      "categoria": "Diversos",
       "nombre": "PlayStation Move",
-      "precio": 2500,
+      "precio": "2500",
+      "descripcion": "hey",
       "imagen": "./assets/images/diversos/5.png",
       "id": 16
     },
     {
-      "categoria": "Diversos",
       "nombre": "Pikachu plush",
-      "precio": 250,
+      "precio": "251",
+      "descripcion": "undefined",
       "imagen": "./assets/images/diversos/6.png",
       "id": 17
     },
@@ -133,16 +133,25 @@
       "id": "f9b6bc16-7f1c-499f-b269-5ea5965d9f79"
     },
     {
-      "nombre": "algo",
-      "precio": "50",
-      "descripcion": "zz",
-      "id": "6404779e-8831-4e3e-a959-8b9bf9b2917e"
+      "nombre": "nuevo product 23",
+      "precio": "1000",
+      "descripcion": "undefined",
+      "imagen": "undefined",
+      "id": "6a97e1ff-8d40-4a15-83ba-1c29c83052ed"
     },
     {
-      "nombre": "nuevo producto",
-      "precio": "1000",
-      "descripcion": "un nuevo producto and so",
-      "id": "6a97e1ff-8d40-4a15-83ba-1c29c83052ed"
+      "nombre": "some some",
+      "precio": "11",
+      "descripcion": "undefined",
+      "imagen": "sdf",
+      "id": "5fd2e710-3e50-4020-b2ec-d6e5e76fc6a5"
+    },
+    {
+      "nombre": "dsfdsfsdfdsf",
+      "precio": "41",
+      "descripcion": "undefined",
+      "imagen": "undefinedsdfdsf",
+      "id": "f854c0bb-c72b-4634-93da-17ec0bb41c00"
     }
   ]
 }
