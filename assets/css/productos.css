@@ -10,6 +10,29 @@
     margin: 2rem 2rem;
 }
 
+.table__button-control {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.simple-button--edit {
+    background-color: var(--txt-grey);
+    color: var(--black);
+    height: 1.5rem;
+    border: 2px solid var(--link-kblue);
+    font-size: 1rem;
+}
+
+.simple-button--delete {
+    background-color: var(--warning-color);
+    color: white;
+    height: 1.5rem;
+    font-size: 1rem;
+    border: 2px solid var(--txt-grey);
+}
+
 /* BUG esto no funciona, los producto desaparecen */
 .section__all section__products {
     display: flex;

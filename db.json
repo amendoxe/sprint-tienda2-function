@@ -22,9 +22,9 @@
       "id": 3
     },
     {
-      "categoria": "Star Wars",
-      "nombre": "figura Primera Orden",
-      "precio": 350,
+      "nombre": "Figura Primera Orden",
+      "precio": "350",
+      "descripcion": "undefined",
       "imagen": "./assets/images/star-wars/4.png",
       "id": 4
     },
@@ -138,13 +138,6 @@
       "descripcion": "undefined",
       "imagen": "undefined",
       "id": "6a97e1ff-8d40-4a15-83ba-1c29c83052ed"
-    },
-    {
-      "nombre": "some some",
-      "precio": "11",
-      "descripcion": "undefined",
-      "imagen": "sdf",
-      "id": "5fd2e710-3e50-4020-b2ec-d6e5e76fc6a5"
     },
     {
       "nombre": "dsfdsfsdfdsf",
