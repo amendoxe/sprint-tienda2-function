@@ -11,7 +11,7 @@ const creaNuevaLinea = (imagen, nombre, precio, id) => {
 			</a>
 			<ul class="table__button-control">
 				<li>
-					<a href="../screens/editar_cliente.html?id=${id}" class="simple-button simple-button--edit">
+					<a href="../views/edita.html?id=${id}" class="simple-button simple-button--edit">
 						Editar
 					</a>
 				</li>
@@ -41,7 +41,6 @@ clientServices
 	.listaDeProductos()
 	.then((response) => {
 		const data = response;
-		console.log(data);
 		//ya teniendo nuestro html y donde lo queremos
 		data.forEach((producto) => {
 			const nuevaLinea = creaNuevaLinea(producto.imagen, producto.nombre, producto.precio, producto.id);

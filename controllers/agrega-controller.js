@@ -9,7 +9,7 @@ formulario.addEventListener("submit", (ev) => {
 	console.log(nombre, "-", precio, "-", descripcion, "-", imagen);
 	clientServices
 		.crearProducto(nombre, precio, descripcion, imagen)
-		.then((respuesta) => {
+		.then(() => {
 			window.location.href = "/views/productos-add.html";
 		})
 		.catch((err) => console.log("error", err));
