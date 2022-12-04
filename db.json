@@ -137,6 +137,12 @@
       "precio": "50",
       "descripcion": "zz",
       "id": "6404779e-8831-4e3e-a959-8b9bf9b2917e"
+    },
+    {
+      "nombre": "nuevo producto",
+      "precio": "1000",
+      "descripcion": "un nuevo producto and so",
+      "id": "6a97e1ff-8d40-4a15-83ba-1c29c83052ed"
     }
   ]
 }
