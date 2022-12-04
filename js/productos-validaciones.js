@@ -10,9 +10,8 @@ productosForm.addEventListener("submit", (ev) => {
 });
 function validaProducto(ev) {
 	if (productosNombre && productosPrecio && productosDescripcion) {
-		console.log("si son");
 		//redireccionar
-		window.location.href = "/views/productos.html";
+		// window.location.href = "/views/productos-add.html";
 	} else {
 		console.log("no estan completos");
 	}

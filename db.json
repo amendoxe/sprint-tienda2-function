@@ -1,67 +1,142 @@
 {
-"producto":[
+  "producto": [
     {
-        "categoria":"Star Wars", "nombre": "taza Stormtrooper", "precio": 150, "imagen": "./assets/images/star-wars/1.png"
+      "categoria": "Star Wars",
+      "nombre": "taza Stormtrooper",
+      "precio": 150,
+      "imagen": "./assets/images/star-wars/1.png"
     },
-        {
-        "categoria":"Star Wars", "nombre": "Lego Helmet", "precio": 250, "imagen": "./assets/images/star-wars/2.png"
+    {
+      "categoria": "Star Wars",
+      "nombre": "Lego Helmet",
+      "precio": 250,
+      "imagen": "./assets/images/star-wars/2.png"
     },
-        {
-        "categoria":"Star Wars", "nombre": "Figura de Yoda", "precio": 100, "imagen": "./assets/images/star-wars/3.png"
+    {
+      "categoria": "Star Wars",
+      "nombre": "Figura de Yoda",
+      "precio": 100,
+      "imagen": "./assets/images/star-wars/3.png"
     },
-        {
-        "categoria":"Star Wars", "nombre": "figura Primera Orden", "precio": 350, "imagen": "./assets/images/star-wars/4.png"
+    {
+      "categoria": "Star Wars",
+      "nombre": "figura Primera Orden",
+      "precio": 350,
+      "imagen": "./assets/images/star-wars/4.png"
     },
-        {
-        "categoria":"Star Wars", "nombre": "figura Grogu", "precio": 150, "imagen": "./assets/images/star-wars/5.png"
+    {
+      "categoria": "Star Wars",
+      "nombre": "figura Grogu",
+      "precio": 150,
+      "imagen": "./assets/images/star-wars/5.png"
     },
-        {
-        "categoria":"Star Wars", "nombre": "figura Kylo Ren", "precio": 250, "imagen": "./assets/images/star-wars/6.png"
+    {
+      "categoria": "Star Wars",
+      "nombre": "figura Kylo Ren",
+      "precio": 250,
+      "imagen": "./assets/images/star-wars/6.png"
     },
-        {
-        "categoria":"Consolas", "nombre": "control Xbox one", "precio": 950, "imagen": "./assets/images/consolas/1.png"
+    {
+      "categoria": "Consolas",
+      "nombre": "control Xbox one",
+      "precio": 950,
+      "imagen": "./assets/images/consolas/1.png"
     },
-        {
-        "categoria":"Consolas", "nombre": "PlayStation 5", "precio": 11000, "imagen": "./assets/images/consolas/2.png"
+    {
+      "categoria": "Consolas",
+      "nombre": "PlayStation 5",
+      "precio": 11000,
+      "imagen": "./assets/images/consolas/2.png"
     },
-        {
-        "categoria":"Consolas", "nombre": "Nintendo NES", "precio": 6000, "imagen": "./assets/images/consolas/3.png"
+    {
+      "categoria": "Consolas",
+      "nombre": "Nintendo NES",
+      "precio": 6000,
+      "imagen": "./assets/images/consolas/3.png"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Joycons",
+      "precio": 1200,
+      "imagen": "./assets/images/consolas/4.png"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Xbox oneX",
+      "precio": 11000,
+      "imagen": "./assets/images/consolas/5.png"
+    },
+    {
+      "categoria": "Consolas",
+      "nombre": "Gameboy Color",
+      "precio": 5000,
+      "imagen": "./assets/images/consolas/6.png"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Atari shirt?",
+      "precio": 190,
+      "imagen": "./assets/images/diversos/1.png"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "NES shirt",
+      "precio": 190,
+      "imagen": "./assets/images/diversos/2.png"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "sonic figure",
+      "precio": 20,
+      "imagen": "./assets/images/diversos/3.png"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Despertador",
+      "precio": 200,
+      "imagen": "./assets/images/diversos/4.png"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "PlayStation Move",
+      "precio": 2500,
+      "imagen": "./assets/images/diversos/5.png"
+    },
+    {
+      "categoria": "Diversos",
+      "nombre": "Pikachu plush",
+      "precio": 250,
+      "imagen": "./assets/images/diversos/6.png"
+    },
+    {
+      "nombre": "algo",
+      "precio": "1",
+      "descripcion": "zz",
+      "id": "a315e56a-a481-44a5-80ef-a82cb944f8e6"
+    },
+    {
+      "nombre": "dsfdsf",
+      "precio": "1",
+      "descripcion": "zz",
+      "id": "4dfccb94-8307-4157-b6d9-98c6c2bc467b"
+    },
+    {
+      "nombre": "dsfdsf",
+      "precio": "2",
+      "descripcion": "zz",
+      "id": "934297ef-5eb7-4305-966a-696375db271a"
+    },
+    {
+      "nombre": "algo",
+      "precio": "100",
+      "descripcion": "algo más",
+      "id": "f9b6bc16-7f1c-499f-b269-5ea5965d9f79"
+    },
+    {
+      "nombre": "algo",
+      "precio": "50",
+      "descripcion": "zz",
+      "id": "6404779e-8831-4e3e-a959-8b9bf9b2917e"
     }
-    ,
-        {
-        "categoria":"Consolas", "nombre": "Joycons", "precio": 1200, "imagen": "./assets/images/consolas/4.png"
-    }
-,
-        {
-        "categoria":"Consolas", "nombre": "Xbox oneX", "precio": 11000, "imagen": "./assets/images/consolas/5.png"
-    }
-    ,
-        {
-        "categoria":"Consolas", "nombre": "Gameboy Color", "precio": 5000, "imagen": "./assets/images/consolas/6.png"
-    }
-    ,
-        {
-        "categoria":"Diversos", "nombre": "Atari shirt?", "precio": 190, "imagen": "./assets/images/diversos/1.png"
-    }
-    ,
-        {
-        "categoria":"Diversos", "nombre": "NES shirt", "precio": 190, "imagen": "./assets/images/diversos/2.png"
-    }
-    ,
-        {
-        "categoria":"Diversos", "nombre": "sonic figure", "precio": 20, "imagen": "./assets/images/diversos/3.png"
-    }
-    ,
-        {
-        "categoria":"Diversos", "nombre": "Despertador", "precio": 200, "imagen": "./assets/images/diversos/4.png"
-    }
-    ,
-        {
-        "categoria":"Diversos", "nombre": "PlayStation Move", "precio": 2500, "imagen": "./assets/images/diversos/5.png"
-    }
-    ,
-        {
-        "categoria":"Diversos", "nombre": "Pikachu plush", "precio": 250, "imagen": "./assets/images/diversos/6.png"
-    }
-]
+  ]
 }

@@ -45,14 +45,15 @@
             <h3 class="form-title">Agregar nuevo producto</h3>
             <div class="sube-img">
 
-                <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+                <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);"
+                    data-productos-imagen>
                     <p class="fa-regular fa-image fa-2x"></p>
                     <p>Arrastre para agregar una imagen para el producto</p>
                 </div>
-                <p>Ó</p>
-                <input type="file" multiple class="btn-buscar-file" />
+                <!-- <p>Ó</p> -->
+                <!-- FIXME -->
+                <!-- <input type="file" class="btn-buscar-file" on="dropHandler(event)" /> -->
             </div>
-            <!-- FIXME -->
             <div class="input-container">
 
                 <label for="nombre-producto">Nombre del producto</label>
@@ -123,6 +124,8 @@
     <script src="../js/app.js" type="module"></script>
     <!-- agregar a API -->
     <script type="module" src="../controllers/agrega-controller.js"></script>
+    <!-- uuidn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
