@@ -42,7 +42,9 @@ Gracias a la simulación del server podemos poner en práctica el CRUD
 Obtenemos nuestra base de datos con fetch y utilizamos el código en nuestro client-controller.js para desplegarlo
 para agregar utilizamos agrega-controller.js
 y para actualizar utilizamos actualizar-controller.js
+
 ## Por mejorar
 A la hora de crear un producto subir la imagen sería algo bueno
 La función de la barra de búsqueda no era muy buena y decidí removerla por el momento
 falta añadir una página utilizando el link de ver producto para mostrar la información de dicho producto
+Por aguna razón no se puede pasar del log in en github pages
