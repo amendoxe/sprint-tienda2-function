@@ -11,9 +11,11 @@ Sprint 3 de los desafios de Alura Challenge One Front-end
 ## Introducción
 Es una página de e-comerce la cual simula la comunicación con un API para obtener la lista de productos que se tienen en la tienda.
 
-imagen de la tienda
+![Screenshot 2022-12-04 at 17 55 14](https://user-images.githubusercontent.com/99451129/205523615-48836a11-e2f0-4b1f-8e2c-f9c1af57deb3.png)
+
 
 en la parte de los productos tenemos el link para ver todos, en esa página se cargan todos los productos que se encuentran en nuestro API (db.json)
+![Screenshot 2022-12-04 at 17 56 03](https://user-images.githubusercontent.com/99451129/205523764-f3e89676-65ae-4a20-9ba3-e7c1d7eecad1.png)
 
 Si deseamos entrar a modificar nuestra lista de productos debemos regresar a nuestra página de inicio y dar click en el botón login. Para entrar usa los datos:
 
@@ -22,6 +24,7 @@ mail: _something@hotmail.com_
 password: _anotherO2_
 
 Esto nos lleva a una página que muestra todos nuestros productos y además nos permite agregar productos, editarlos ó eliminarlos.
+![Screenshot 2022-12-04 at 17 58 13](https://user-images.githubusercontent.com/99451129/205523793-ed162281-7c83-4bf4-87a7-03faeb98cf7f.png)
 
 ## Temas que se se aplicaron
 El proyecto fue realizado con vanilla HTML, CSS y JavaScript
